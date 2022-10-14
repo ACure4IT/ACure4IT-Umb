@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  acure4it-umb:
+    image: ${DOCKER_REGISTRY-}acure4itumb
+    build:
+      context: .
+      dockerfile: Dockerfile
